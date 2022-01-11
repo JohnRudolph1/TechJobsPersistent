@@ -26,8 +26,9 @@ SELECT Name FROM Employers WHERE Location = "St. Louis City";
 
 --Part 3
 
-<--write a query to return a list of the names and descriptions of all skills that 
-<--are attached to jobs in alphabetical order. If a skill does not have a job listed,
+<--write a query to return a list of the names and descriptions of all skills that (SELECT FROM *)
+<--are attached to jobs in alphabetical order. (ORDER BY name ASC)
+<--If a skill does not have a job listed, (IS NOT NULL)
 <--it should not be included in the results of this query.-->
 
 SELECT * FROM skills 
